@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="contact-header">
+        <figure>
+            <img class="contact-logo" src="/images/logo.png" alt="logo">
+        </figure>
+    </header>
+    <nav class="nav-contact">
+        <ul>
+            <li><a href="/home/home.html">Home</a></li>
+            <li><a href="/about/about.html">About</a></li>
+            <li><a href="/products/products.html">Products</a></li>
+        </ul>
+    </nav>
+    <section class="contact-container">
+        <div class="title">
+            <h1 id="title-contact">Contact us now</h1>
+        </div>
+        <div class="form-container">
+            <div class="text">
+                <h2 id="col-title">Do you want to collaborate?</h2>
+                <p id="text-info">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                    dolor. Aenean massa.
+                    Cum sociis natoque penatibus et</p>
+            </div>
+            <div class="form">
+                <form action="submit-form.html" method="get" class="contact-form">
+                    <div class="name-label-input-container">
+                        <label class="my-label-name" for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Place your name here" required>
+                    </div>
+                    <div class="email-label-input-container">
+                        <label class="my-label-email" for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Place your email here" required>
+                    </div>
+                    <div class="message-textarea-container">
+                        <label class="my-lable-message" for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Add your message here"></textarea>
+                    </div>
+                    <span id="personal-data-usage">Data usage agrement: </span>
+                </form>
+                <div class="checkbox">
+                    <input type="checkbox" id="confirm" name="I confirm the safe processing of my personald data"
+                        checked>
+                    <label class="text-checkbox" for="confirm">I confirm the
+                        safe processing of my personald data</label>
+                </div>
+                <button id="submit-button" type="button">Send your message now</button>
+            </div>
+        </div>
+    </section>
+    <footer class="contact-footer">
+        <ul class="contact-links">
+            <li>
+                <a href="#">
+                    <ion-icon name="call-outline"></ion-icon>
+                </a>
+            <li><a href="#">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a></li>
+            <li><a href="#">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a></li>
+            <li><a href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a></li>
+            <li><a href="#">
+                    <ion-icon name="mail-open-outline"></ion-icon>
+                </a></li>
+            <li><a href="#">
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                </a></li>
+            <li><a href="#">
+                    <ion-icon name="logo-snapchat"></ion-icon>
+                </a></li>
+        </ul>
+
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
